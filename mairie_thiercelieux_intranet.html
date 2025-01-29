@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head><meta charset='UTF-8'><title>Thiercelieux - Information de la mairie</title></head>
+<body>
+<h1>Intranet de la mairie de Thiercelieux ! Bienvenue</h1>
+<p>Saisissez votre numéro de joueur et votre mot de passe pour accéder à vos informations.</p>
+<input type='number' id='joueurId' placeholder='Numéro du joueur' />
+<input type='password' id='password' placeholder='Mot de passe' />
+<button onclick='showMessage()'>Valider</button>
+<div id='message'></div>
+<script>
+function showMessage() {
+  var joueurId = document.getElementById('joueurId').value;
+  var password = document.getElementById('password').value;
+  var message = '';
+  if (joueurId == '1' && password == 'A') {
+    message = 'Vous êtes loup-garou, soyez malin lors de vos repas !';
+  }
+  if (joueurId == '2' && password == 'B') {
+    message = 'Vous êtes villageois, ne vous faites pas bouffer !';
+  }
+  if (joueurId == '3' && password == 'C') {
+    message = 'Vous êtes l'enfant sauvage. Surveillez bien Joueur 9 : dreyd (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.';
+  }
+  if (joueurId == '4' && password == 'D') {
+    message = 'Vous êtes l'ancien du village, la vieillesse vous occtroie une vie supplémentaire. #EXTRALIFE';
+  }
+  if (joueurId == '5' && password == 'E') {
+    message = 'Vous êtes la sorcière, utilisez vos pouvoirs avec sagesse car un grand pouvoir implique de grandes responsabilités.';
+  }
+  if (joueurId == '6' && password == 'F') {
+    message = 'Vous êtes la voyante, utilisez votre pouvoir avec clairvoyance.';
+  }
+  if (joueurId == '7' && password == 'G') {
+    message = 'Vous êtes le grand méchant loup. Après les trois petits cochons, les villageois feront l'affaire.';
+  }
+  if (joueurId == '8' && password == 'H') {
+    message = 'Vous êtes le chasseur, one last shot for you !';
+  }
+  if (joueurId == '9' && password == 'I') {
+    message = 'Vous êtes le loup blanc, on est mieux solo !';
+  }
+  if (message === '') {
+    message = 'Numéro de joueur ou mot de passe incorrect.';
+  }
+  document.getElementById('message').innerText = message;
+}
+</script>
+</body>
+</html>
+
