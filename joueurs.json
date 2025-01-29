@@ -1,38 +1,38 @@
 {
   "1": { 
     "password": "A",
-    "info": "Vous êtes loup-garou, soyez malin lors de vos repas !"
+    "info": "Vous &ecirc;tes loup-garou, soyez malin lors de vos repas !"
   },
   "2": { 
     "password": "B",
-    "info": "Vous êtes villageois, ne vous faites pas bouffer !"
+    "info": "Vous &ecirc;tes villageois, ne vous faites pas bouffer !"
   },
   "3": { 
     "password": "C",
-    "info": "Vous êtes l'enfant sauvage. Surveillez bien Joueur 9 : dreyd (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour."
+    "info": "Vous &ecirc;tes l'enfant sauvage. Surveillez bien Joueur 9 : dreyd (votre mod&egrave;le), s'il est &eacute;limin&eacute;, vous mangerez la nuit et vous cacherez le jour."
   },
   "4": { 
     "password": "D",
-    "info": "Vous êtes l'ancien du village, la vieillesse vous occtroie une vie supplémentaire. #EXTRALIFE"
+    "info": "Vous &ecirc;tes l'ancien du village, la vieillesse vous occtroie une vie suppl&eacute;mentaire. #EXTRALIFE"
   },
   "5": { 
     "password": "E",
-    "info": "Vous êtes la sorcière, utilisez vos pouvoirs avec sagesse car un grand pouvoir implique de grandes responsabilités."
+    "info": "Vous &ecirc;tes la sorci&egrave;re, utilisez vos pouvoirs avec sagesse car un grand pouvoir implique de grandes responsabilit&eacute;s."
   },
   "6": { 
     "password": "F",
-    "info": "Vous êtes la voyante, utilisez votre pouvoir avec clairvoyance."
+    "info": "Vous &ecirc;tes la voyante, utilisez votre pouvoir avec clairvoyance."
   },
   "7": { 
     "password": "G",
-    "info": "Vous êtes le grand méchant loup. Après les trois petits cochons, les villageois feront l'affaire."
+    "info": "Vous &ecirc;tes le grand m&eacute;chant loup. Apr&egrave;s les trois petits cochons, les villageois feront l'affaire."
   },
   "8": { 
     "password": "H",
-    "info": "Vous êtes le chasseur, one last shot for you !"
+    "info": "Vous &ecirc;tes le chasseur, one last shot for you !"
   },
   "9": { 
     "password": "I",
-    "info": "Vous êtes le loup blanc, on est mieux solo !"
+    "info": "Vous &ecirc;tes le loup blanc, on est mieux solo !"
   }
 }
