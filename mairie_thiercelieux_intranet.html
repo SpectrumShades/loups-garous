@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang='fr'>
 <head>
 <meta charset='UTF-8'>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <title>Thiercelieux - Information de la mairie</title>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -11,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('validateButton').addEventListener('click', function() {
         let joueurId = document.getElementById('joueurId').value;
         let password = document.getElementById('password').value;
-        let message = 'Numéro de joueur ou mot de passe incorrect.';
+        let message = 'NumÃ©ro de joueur ou mot de passe incorrect.';
         if (players[joueurId] && players[joueurId].password === password) {
           message = 'Bienvenue ! ' + players[joueurId].info;
         }
@@ -24,11 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </head>
 <body>
 <h1>Intranet de la mairie de Thiercelieux ! Bienvenue</h1>
-<p>Saisissez votre numéro de joueur et votre mot de passe pour accéder à vos informations.</p>
-<input type='number' id='joueurId' placeholder='Numéro du joueur' />
+<p>Saisissez votre numÃ©ro de joueur et votre mot de passe pour accÃ©der Ã  vos informations.</p>
+<input type='number' id='joueurId' placeholder='NumÃ©ro du joueur' />
 <input type='password' id='password' placeholder='Mot de passe' />
 <button id='validateButton'>Valider</button>
 <div id='message'></div>
 </body>
 </html>
-
