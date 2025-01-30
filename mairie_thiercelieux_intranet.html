@@ -5,8 +5,10 @@
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <title>Thiercelieux - Information de la mairie</title>
 <style>
-  input { width: 300px; height: 30px; font-size: 16px; padding: 5px; }
-  button { font-size: 16px; padding: 10px; }
+  body { background-color: black; color: white; text-align: center; font-family: Arial, sans-serif; }
+  input { width: 300px; height: 30px; font-size: 16px; padding: 5px; background-color: #222; color: white; border: 1px solid white; }
+  button { font-size: 16px; padding: 10px; background-color: #333; color: white; border: 1px solid white; cursor: pointer; }
+  button:hover { background-color: #555; }
   #message { font-size: 18px; font-weight: bold; margin-top: 10px; }
 </style>
 <script>
@@ -31,9 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </head>
-<body  align='center'>
+<body>
 <h1>Intranet de la mairie de Thiercelieux ! Bienvenue</h1>
-<a href='https://ibb.co/GQ22Dn68'><img src='https://i.ibb.co/k288T57w/BLASON.jpg' width='200' height='200' alt='BLASON' border='0'></a><p>Saisissez votre numéro de joueur et votre mot de passe pour accéder à vos informations.</p>
+<img src='https://i.ibb.co/k288T57w/BLASON.jpg' width='300' height='300' alt='BLASON' border='0'><p>Saisissez votre numéro de joueur et votre mot de passe pour accéder à vos informations.</p>
 <input type='number' id='joueurId' placeholder='Numéro du joueur' />
 <br><br>
 <input type='password' id='password' placeholder='Mot de passe' />
