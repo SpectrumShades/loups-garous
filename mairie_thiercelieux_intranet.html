@@ -12,11 +12,14 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('validateButton').addEventListener('click', function() {
         let joueurId = document.getElementById('joueurId').value;
         let password = document.getElementById('password').value;
+        let messageElement = document.getElementById('message');
         let message = 'Numéro de joueur ou mot de passe incorrect.';
+        messageElement.style.color = 'red';
         if (players[joueurId] && players[joueurId].password === password) {
-          message = 'Bienvenue ! ' + players[joueurId].info;
+          message = players[joueurId].info;
+          messageElement.style.color = 'green';
         }
-        document.getElementById('message').innerText = message;
+        messageElement.innerText = message;
       });
     })
     .catch(error => console.error('Erreur de chargement des joueurs :', error));
