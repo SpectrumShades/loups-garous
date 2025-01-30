@@ -4,6 +4,11 @@
 <meta charset='UTF-8'>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <title>Thiercelieux - Information de la mairie</title>
+<style>
+  input { width: 300px; height: 30px; font-size: 16px; padding: 5px; }
+  button { font-size: 16px; padding: 10px; }
+  #message { font-size: 18px; font-weight: bold; margin-top: 10px; }
+</style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   fetch('joueurs.json')
@@ -16,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let message = 'Numéro de joueur ou mot de passe incorrect.';
         messageElement.style.color = 'red';
         if (players[joueurId] && players[joueurId].password === password) {
-          message = players[joueurId].info;
+          message = 'Bienvenue ! ' + players[joueurId].info;
           messageElement.style.color = 'green';
         }
         messageElement.innerText = message;
@@ -30,10 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <h1>Intranet de la mairie de Thiercelieux ! Bienvenue</h1>
 <p>Saisissez votre numéro de joueur et votre mot de passe pour accéder à vos informations.</p>
 <input type='number' id='joueurId' placeholder='Numéro du joueur' />
+<br><br>
 <input type='password' id='password' placeholder='Mot de passe' />
+<br><br>
 <button id='validateButton'>Valider</button>
-<p> </p>
-<p> </p>
 <div id='message'></div>
 </body>
 </html>
