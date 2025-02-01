@@ -1,56 +1,38 @@
 ﻿{
   "1": { 
     "password": "a",
-    "info": "Joueur 1 : Quentin : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.
-
-"
+    "info": "Joueur 1 : Quentin : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.\n\n"
   },
   "2": { 
     "password": "b",
-    "info": "Joueur 2 : Fab : Vous êtes loup-garou, soyez malin lors de vos repas !
-
-"
+    "info": "Joueur 2 : Fab : Vous êtes loup-garou, soyez malin lors de vos repas !\n\n"
   },
   "3": { 
     "password": "c",
-    "info": "Joueur 3 : Léa : Vous êtes le chien-loup, et vous avez préféré devenir un Villageois !
-
-"
+    "info": "Joueur 3 : Léa : Vous êtes le chien-loup, et vous avez préféré devenir un Villageois !\n\n"
   },
   "4": { 
     "password": "d",
-    "info": "Joueur 4 : Pierre : Vous êtes l'ancien du village, la vieillesse vous occtroie une vie supplémentaire. #EXTRALIFE
-
-"
+    "info": "Joueur 4 : Pierre : Vous êtes l'ancien du village, la vieillesse vous occtroie une vie supplémentaire. #EXTRALIFE\n\n"
   },
   "5": { 
     "password": "e",
-    "info": "Joueur 5 : Marie : Vous êtes le loup blanc, on est mieux solo !
-
-"
+    "info": "Joueur 5 : Marie : Vous êtes le loup blanc, on est mieux solo !\n\n"
   },
   "6": { 
     "password": "f",
-    "info": "Joueur 6 : Emma : Vous êtes la sorcière, utilisez vos pouvoirs avec sagesse car un grand pouvoir implique de grandes responsabilités.
-
-"
+    "info": "Joueur 6 : Emma : Vous êtes la sorcière, utilisez vos pouvoirs avec sagesse car un grand pouvoir implique de grandes responsabilités.\n\n"
   },
   "7": { 
     "password": "g",
-    "info": "Joueur 7 : gloglo : Vous êtes cupidon, les amoureux vous en voudront peut-être…
-
-"
+    "info": "Joueur 7 : gloglo : Vous êtes cupidon, les amoureux vous en voudront peut-être…\n\n"
   },
   "8": { 
     "password": "h",
-    "info": "Joueur 8 : Alex : Vous êtes le renard, ne jouez pas comme un corbeau ! Vous êtes amoureux de Joueur 9 : dreyd. Vos destins sont liés jusque dans la mort.
-
-"
+    "info": "Joueur 8 : Alex : Vous êtes le renard, ne jouez pas comme un corbeau ! Vous êtes amoureux de Joueur 9 : dreyd. Vos destins sont liés jusque dans la mort.\n\n"
   },
   "9": { 
     "password": "i",
-    "info": "Joueur 9 : dreyd : Vous êtes le chevalier à l'épée rouillée. AKA chevalier au tétanos. Vous êtes amoureux de Joueur 8 : Alex. Vos destins sont liés dans la victoire comme dans la mort.
-
-"
+    "info": "Joueur 9 : dreyd : Vous êtes le chevalier à l'épée rouillée. AKA chevalier au tétanos. Vous êtes amoureux de Joueur 8 : Alex. Vos destins sont liés dans la victoire comme dans la mort.\n\n"
   }
 }
