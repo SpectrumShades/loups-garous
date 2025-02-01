@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let message = 'Numéro de joueur ou mot de passe incorrect.';
         messageElement.style.color = 'red';
         if (players[joueurId] && players[joueurId].password === password) {
-          message = 'Bienvenue ! ' + players[joueurId].info;
+          message = players[joueurId].info;
           messageElement.style.color = 'green';
         }
         messageElement.innerText = message;
