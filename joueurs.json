@@ -1,15 +1,11 @@
 ﻿{
   "1": { 
     "password": "a",
-    "info": "Joueur 1 : Quentin : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.
-
-Jour n°1 : Pas d'information supplémentaire pour vous ce matin"
+    "info": "Joueur 1 : Quentin : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "2": { 
     "password": "b",
-    "info": "Joueur 2 : Fab : Vous êtes loup-garou, soyez malin lors de vos repas !
-
-Jour n°1 : Pas d'information supplémentaire pour vous ce matin"
+    "info": "Joueur 2 : Fab : Vous êtes loup-garou, soyez malin lors de vos repas !\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "3": { 
     "password": "c",
