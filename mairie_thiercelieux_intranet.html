@@ -46,14 +46,20 @@ document.addEventListener('DOMContentLoaded', function() {
       messageElement.style.color = 'red';
     }
   });
+  document.getElementById('logoutButton').addEventListener('click', function() {
+    localStorage.clear();
+    location.reload();
+  });
   chargerJoueurs();
 });
 </script>
 </head><body>
 <h1>Intranet de la mairie de Thiercelieux</h1>
+<img src='https://i.ibb.co/k288T57w/BLASON.jpg' width='300' height='300' alt='BLASON' border='0'>
 <input type='number' id='joueurId' placeholder='Numéro du joueur' /><br><br>
 <input type='password' id='password' placeholder='Mot de passe' /><br><br>
 <div class='button-container'>
+<button id='logoutButton'>Déconnexion</button>
 <button id='validateButton'>Valider</button>
 </div>
 <div id='message'></div>
