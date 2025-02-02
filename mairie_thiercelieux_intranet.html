@@ -18,35 +18,57 @@ document.addEventListener('DOMContentLoaded', function() {
     let cacheBuster = new Date().getTime();
     fetch('joueurs.json?t=' + cacheBuster, { cache: 'no-store' })
       .then(response => response.json())
-      .then(players => { window.joueursData = players; })
+      .then(players => {
+        console.log("Données chargées :", players);
+        window.joueursData = players;
+      })
       .catch(error => console.error('Erreur de chargement des joueurs :', error));
   }
+
   document.getElementById('validateButton').addEventListener('click', function() {
-    let joueurId = document.getElementById('joueurId').value;
+    let joueurId = document.getElementById('joueurId').value.toString();  // Conversion en string
     let password = document.getElementById('password').value;
     let messageElement = document.getElementById('message');
     let message = 'Numéro de joueur ou mot de passe incorrect.';
     messageElement.style.color = 'red';
-    if (window.joueursData && window.joueursData[joueurId] && window.joueursData[joueurId].password === password) {
-      message = window.joueursData[joueurId].info;
-      messageElement.style.color = 'green';
-      localStorage.setItem('joueurId', joueurId);
-      localStorage.setItem('password', password);
+
+    console.log("Valeur joueurId saisie :", joueurId);
+    console.log("Valeur password saisie :", password);
+    console.log("Données des joueurs :", window.joueursData);
+
+    if (window.joueursData && window.joueursData[joueurId]) {
+      console.log("Joueur trouvé :", window.joueursData[joueurId]);
+
+      if (window.joueursData[joueurId].password === password) {
+        message = window.joueursData[joueurId].info;
+        messageElement.style.color = 'green';
+        localStorage.setItem('joueurId', joueurId);
+        localStorage.setItem('password', password);
+      } else {
+        console.log("Mot de passe incorrect.");
+      }
+    } else {
+      console.log("Joueur non trouvé.");
     }
+
     messageElement.innerText = message;
   });
+
   if (localStorage.getItem('joueurId')) {
     document.getElementById('joueurId').value = localStorage.getItem('joueurId');
     document.getElementById('password').value = localStorage.getItem('password');
   }
+
   document.getElementById('refreshButton').addEventListener('click', function() {
     chargerJoueurs();
   });
+
   document.getElementById('logoutButton').addEventListener('click', function() {
     localStorage.removeItem('joueurId');
     localStorage.removeItem('password');
     location.reload();
   });
+
   chargerJoueurs();
 });
 </script>
