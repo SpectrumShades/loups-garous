@@ -13,23 +13,41 @@
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  fetch('joueurs.json')
-    .then(response => response.json())
-    .then(players => {
-      document.getElementById('validateButton').addEventListener('click', function() {
-        let joueurId = document.getElementById('joueurId').value;
-        let password = document.getElementById('password').value;
-        let messageElement = document.getElementById('message');
-        let message = 'Numéro de joueur ou mot de passe incorrect.';
-        messageElement.style.color = 'red';
-        if (players[joueurId] && players[joueurId].password === password) {
-          message = players[joueurId].info;
-          messageElement.style.color = 'green';
-        }
-        messageElement.innerText = message;
-      });
-    })
-    .catch(error => console.error('Erreur de chargement des joueurs :', error));
+  function chargerJoueurs() {
+    let cacheBuster = new Date().getTime();
+    fetch('joueurs.json?t=' + cacheBuster)
+      .then(response => response.json())
+      .then(players => {
+        document.getElementById('validateButton').addEventListener('click', function() {
+          let joueurId = document.getElementById('joueurId').value;
+          let password = document.getElementById('password').value;
+          let messageElement = document.getElementById('message');
+          let message = 'Numéro de joueur ou mot de passe incorrect.';
+          messageElement.style.color = 'red';
+          if (players[joueurId] && players[joueurId].password === password) {
+            message = players[joueurId].info;
+            messageElement.style.color = 'green';
+            localStorage.setItem('joueurId', joueurId);
+            localStorage.setItem('password', password);
+          }
+          messageElement.innerText = message;
+        });
+      })
+      .catch(error => console.error('Erreur de chargement des joueurs :', error));
+  }
+  if (localStorage.getItem('joueurId')) {
+    document.getElementById('joueurId').value = localStorage.getItem('joueurId');
+    document.getElementById('password').value = localStorage.getItem('password');
+  }
+  document.getElementById('refreshButton').addEventListener('click', function() {
+    location.reload(true);
+  });
+  document.getElementById('logoutButton').addEventListener('click', function() {
+    localStorage.removeItem('joueurId');
+    localStorage.removeItem('password');
+    location.reload();
+  });
+  chargerJoueurs();
 });
 </script>
 </head>
@@ -41,6 +59,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <input type='password' id='password' placeholder='Mot de passe' />
 <br><br>
 <button id='validateButton'>Valider</button>
+<br><br>
+<button id='refreshButton'>Actualiser</button>
+<br><br>
+<button id='logoutButton'>Déconnexion</button>
 <br><br>
 <div id='message'></div>
 </body>
