@@ -39,9 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('joueurId').value = localStorage.getItem('joueurId');
     document.getElementById('password').value = localStorage.getItem('password');
   }
-  document.getElementById('refreshButton').addEventListener('click', function() {
-    chargerJoueurs();
-  });
   document.getElementById('logoutButton').addEventListener('click', function() {
     localStorage.removeItem('joueurId');
     localStorage.removeItem('password');
@@ -60,8 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <input type='password' id='password' placeholder='Mot de passe' />
 <div class='button-container'>
 <button id='logoutButton'>Déconnexion</button>
-<button id='refreshButton'>Actualiser</button>
-<button id='validateButton'>Valider</button>
+<button id='validateButton'>Valider / Actualiser</button>
 </div>
 <div id='message'></div>
 </body></html>
