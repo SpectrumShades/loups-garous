@@ -14,54 +14,46 @@
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('validateButton').disabled = true;
   function chargerJoueurs() {
     let cacheBuster = new Date().getTime();
     fetch('joueurs.json?t=' + cacheBuster, { cache: 'no-store' })
       .then(response => response.json())
-      .then(players => { window.joueursData = players; })
-      .catch(error => console.error('Erreur de chargement des joueurs :', error));
+      .then(players => { 
+        window.joueursData = players;
+        document.getElementById('validateButton').disabled = false;
+      })
+      .catch(error => {
+        console.error('Erreur de chargement des joueurs :', error);
+      });
   }
   document.getElementById('validateButton').addEventListener('click', function() {
     let joueurId = document.getElementById('joueurId').value;
     let password = document.getElementById('password').value;
     let messageElement = document.getElementById('message');
-    let message = 'Numéro de joueur ou mot de passe incorrect.';
-    messageElement.style.color = 'red';
-    if (window.joueursData && window.joueursData[joueurId] && window.joueursData[joueurId].password === password) {
-      message = window.joueursData[joueurId].info;
+    if (!window.joueursData) {
+      messageElement.innerText = 'Chargement en cours... Veuillez patienter.';
+      messageElement.style.color = 'orange';
+      return;
+    }
+    if (window.joueursData[joueurId] && window.joueursData[joueurId].password === password) {
+      messageElement.innerText = window.joueursData[joueurId].info;
       messageElement.style.color = 'green';
       localStorage.setItem('joueurId', joueurId);
       localStorage.setItem('password', password);
+    } else {
+      messageElement.innerText = 'Numéro de joueur ou mot de passe incorrect.';
+      messageElement.style.color = 'red';
     }
-    messageElement.innerText = message;
-  });
-  if (localStorage.getItem('joueurId')) {
-    document.getElementById('joueurId').value = localStorage.getItem('joueurId');
-    document.getElementById('password').value = localStorage.getItem('password');
-  }
-  document.getElementById('refreshButton').addEventListener('click', function() {
-    chargerJoueurs();
-  });
-  document.getElementById('logoutButton').addEventListener('click', function() {
-    localStorage.removeItem('joueurId');
-    localStorage.removeItem('password');
-    location.reload();
   });
   chargerJoueurs();
 });
 </script>
-</head>
-<body>
-<h1>Intranet de la mairie de Thiercelieux ! Bienvenue</h1>
-<img src='https://i.ibb.co/k288T57w/BLASON.jpg' width='300' height='300' alt='BLASON' border='0'>
-<p>Saisissez votre numéro de joueur et votre mot de passe.</p>
-<input type='number' id='joueurId' placeholder='Numéro du joueur' />
-<br><br>
-<input type='password' id='password' placeholder='Mot de passe' />
-<br><br>
+</head><body>
+<h1>Intranet de la mairie de Thiercelieux</h1>
+<input type='number' id='joueurId' placeholder='Numéro du joueur' /><br><br>
+<input type='password' id='password' placeholder='Mot de passe' /><br><br>
 <div class='button-container'>
-<button id='logoutButton'>Déconnexion</button>
-<button id='refreshButton'>Actualiser</button>
 <button id='validateButton'>Valider</button>
 </div>
 <div id='message'></div>
