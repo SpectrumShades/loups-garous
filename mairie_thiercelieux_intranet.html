@@ -25,16 +25,21 @@ document.addEventListener('DOMContentLoaded', function() {
     let joueurId = document.getElementById('joueurId').value;
     let password = document.getElementById('password').value;
     let messageElement = document.getElementById('message');
+    let messageElement2 = document.getElementById('message2');
     let message = 'Numéro de joueur ou mot de passe incorrect.';
+    let message2 = '';
     messageElement.style.color = 'red';
     chargerJoueurs(function() {
       if (window.joueursData && window.joueursData[joueurId] && window.joueursData[joueurId].password === password) {
         message = window.joueursData[joueurId].info;
-        messageElement.style.color = 'green';
+        message2 = window.joueursData[joueurId].info2;
+        messageElement.style.color = 'blue';
+        messageElement2.style.color = 'green';
         localStorage.setItem('joueurId', joueurId);
         localStorage.setItem('password', password);
       }
       messageElement.innerText = message;
+      messageElement2.innerText = message2;
     });
   }
   if (localStorage.getItem('joueurId')) {
@@ -64,4 +69,5 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 <br><br>
 <div id='message'></div>
+<div id='message2'></div>
 </body></html>
