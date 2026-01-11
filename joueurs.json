@@ -1,32 +1,32 @@
 ﻿{
   "1": { 
     "password": "a",
-    "info": "Joueur 1 : Quentin : Vous êtes le loup blanc, on est mieux solo !",
+    "info": "Joueur 1 : Quentin : Vous êtes loup-garou, soyez malin lors de vos repas !",
     "info2": ""
   },
   "2": { 
     "password": "b",
-    "info": "Joueur 2 : Fab : Vous êtes cupidon, les amoureux (Joueur 4 : Pierre et Joueur 5 : Marie) vous en voudront peut-être…",
+    "info": "Joueur 2 : Fab : Vous êtes le chasseur, one last shot for you !",
     "info2": ""
   },
   "3": { 
     "password": "c",
-    "info": "Joueur 3 : Léa : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 3 : Léa : Vous êtes le grand méchant loup. Après les trois petits cochons, les villageois feront l'affaire.",
     "info2": ""
   },
   "4": { 
     "password": "d",
-    "info": "Joueur 4 : Pierre : Vous êtes le chien-loup, et vous avez préféré devenir un  ! Vous êtes amoureux du Joueur 5 : Marie. Vos destins sont liés dans la victoire comme dans la mort.",
+    "info": "Joueur 4 : Pierre : Vous êtes villageois, ne vous faites pas bouffer !",
     "info2": ""
   },
   "5": { 
     "password": "e",
-    "info": "Joueur 5 : Marie : Vous êtes loup-garou, soyez malin lors de vos repas ! Vous êtes amoureux de Joueur 4 : Pierre. Vos destins sont liés jusque dans la mort.",
+    "info": "Joueur 5 : Marie : Vous êtes le montreur d'ours, écoutez les grognements de votre NAC.",
     "info2": ""
   },
   "6": { 
     "password": "f",
-    "info": "Joueur 6 : Emma : Vous êtes loup-garou, soyez malin lors de vos repas !",
+    "info": "Joueur 6 : Emma : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.",
     "info2": ""
   },
   "7": { 
@@ -36,12 +36,12 @@
   },
   "8": { 
     "password": "h",
-    "info": "Joueur 8 : Alex : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 8 : Alex : Vous êtes l'enfant sauvage. Surveillez bien Joueur 7 : gloglo (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
     "info2": ""
   },
   "9": { 
     "password": "i",
-    "info": "Joueur 9 : dreyd : Vous êtes le renard, ne jouez pas comme un corbeau !",
+    "info": "Joueur 9 : dreyd : Vous êtes loup-garou, soyez malin lors de vos repas !",
     "info2": ""
   }
 }
