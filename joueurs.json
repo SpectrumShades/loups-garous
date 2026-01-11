@@ -2,46 +2,46 @@
   "1": { 
     "password": "a",
     "info": "Joueur 1 : Quentin : Vous êtes cupidon, les amoureux (Joueur 1 : Quentin et Joueur 3 : Léa) vous en voudront peut-être… Vous êtes amoureux du Joueur 3 : Léa. Vos destins sont liés dans la victoire comme dans la mort.",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "2": { 
     "password": "b",
     "info": "Joueur 2 : Fab : Vous êtes le chevalier à l'épée rouillée. AKA chevalier au tétanos.",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "3": { 
     "password": "c",
     "info": "Joueur 3 : Léa : Vous êtes loup-garou, soyez malin lors de vos repas ! Vous êtes amoureux de Joueur 1 : Quentin. Vos destins sont liés jusque dans la mort.",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "4": { 
     "password": "d",
     "info": "Joueur 4 : Pierre : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "5": { 
     "password": "e",
     "info": "Joueur 5 : Marie : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "6": { 
     "password": "f",
     "info": "Joueur 6 : Emma : Vous êtes le montreur d'ours, écoutez les grognements de votre NAC.",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "7": { 
     "password": "g",
     "info": "Joueur 7 : gloglo : Vous êtes loup-garou, soyez malin lors de vos repas !",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   },
   "8": { 
     "password": "h",
     "info": "Joueur 8 : Alex : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Vous avez été infecté par l'infect père des loups. Vous êtes devenu un loup-garou et vous vous réveillerez avec la meute lors de la prochaine nuit. Par ailleur, vous conserver vos pouvoirs si vous en avez eu en tant que membre du village."
   },
   "9": { 
     "password": "i",
     "info": "Joueur 9 : dreyd : Vous êtes l'enfant sauvage. Surveillez bien Joueur 5 : Marie (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
-    "info2": ""
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous ce matin"
   }
 }
