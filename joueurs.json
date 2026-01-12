@@ -12,7 +12,7 @@
   "3": { 
     "password": "c",
     "info": "Joueur 3 : Léa : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous. \n\nJour n°2 : Pas d'information supplémentaire pour vous."
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous. \n\nJour n°2 : R.I.P"
   },
   "4": { 
     "password": "d",
@@ -37,7 +37,7 @@
   "8": { 
     "password": "h",
     "info": "Joueur 8 : Alex : Vous êtes l'enfant sauvage. Surveillez bien Joueur 3 : Léa (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous. \n\nJour n°2 : Pas d'information supplémentaire pour vous."
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous. \n\nJour n°2 : Votre modèle est mort, vous devenez un Loup-garou jusqu'à la fin de la partie."
   },
   "9": { 
     "password": "i",
