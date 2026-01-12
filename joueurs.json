@@ -2,46 +2,46 @@
   "1": { 
     "password": "a",
     "info": "Joueur 1 : Quentin : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : R.I.P"
+    "info2": ""
   },
   "2": { 
     "password": "b",
     "info": "Joueur 2 : Fab : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": ""
   },
   "3": { 
     "password": "c",
     "info": "Joueur 3 : Léa : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": ""
   },
   "4": { 
     "password": "d",
     "info": "Joueur 4 : Pierre : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": ""
   },
   "5": { 
     "password": "e",
     "info": "Joueur 5 : Marie : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": ""
   },
   "6": { 
     "password": "f",
     "info": "Joueur 6 : Emma : Vous êtes loup-garou, soyez malin lors de vos repas !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": ""
   },
   "7": { 
     "password": "g",
     "info": "Joueur 7 : gloglo : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": ""
   },
   "8": { 
     "password": "h",
     "info": "Joueur 8 : Alex : Vous êtes l'enfant sauvage. Surveillez bien Joueur 3 : Léa (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": ""
   },
   "9": { 
     "password": "i",
     "info": "Joueur 9 : dreyd : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": ""
   }
 }
