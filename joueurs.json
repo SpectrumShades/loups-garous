@@ -1,17 +1,17 @@
 ﻿{
   "1": { 
     "password": "a",
-    "info": "Joueur 1 : Quentin : Vous êtes loup-garou, soyez malin lors de vos repas !",
+    "info": "Joueur 1 : Quentin : Vous êtes villageois, ne vous faites pas bouffer !",
     "info2": ""
   },
   "2": { 
     "password": "b",
-    "info": "Joueur 2 : Fab : Vous êtes le montreur d'ours, écoutez les grognements de votre NAC.",
+    "info": "Joueur 2 : Fab : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.",
     "info2": ""
   },
   "3": { 
     "password": "c",
-    "info": "Joueur 3 : Léa : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 3 : Léa : Vous êtes loup-garou, soyez malin lors de vos repas !",
     "info2": ""
   },
   "4": { 
@@ -21,27 +21,27 @@
   },
   "5": { 
     "password": "e",
-    "info": "Joueur 5 : Marie : Vous êtes loup-garou, soyez malin lors de vos repas !",
+    "info": "Joueur 5 : Marie : Vous êtes le montreur d'ours, écoutez les grognements de votre NAC.",
     "info2": ""
   },
   "6": { 
     "password": "f",
-    "info": "Joueur 6 : Emma : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.",
+    "info": "Joueur 6 : Emma : Vous êtes l'enfant sauvage. Surveillez bien Joueur 7 : gloglo (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
     "info2": ""
   },
   "7": { 
     "password": "g",
-    "info": "Joueur 7 : gloglo : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 7 : gloglo : Vous êtes loup-garou, soyez malin lors de vos repas !",
     "info2": ""
   },
   "8": { 
     "password": "h",
-    "info": "Joueur 8 : Alex : Vous êtes loup-garou, soyez malin lors de vos repas !",
+    "info": "Joueur 8 : Alex : Vous êtes villageois, ne vous faites pas bouffer !",
     "info2": ""
   },
   "9": { 
     "password": "i",
-    "info": "Joueur 9 : dreyd : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 9 : dreyd : Vous êtes loup-garou, soyez malin lors de vos repas !",
     "info2": ""
   }
 }
