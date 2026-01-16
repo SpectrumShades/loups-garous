@@ -6,17 +6,17 @@
   },
   "2": { 
     "password": "b",
-    "info": "Joueur 2 : Fab : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 2 : Fab : Vous êtes le montreur d'ours, écoutez les grognements de votre NAC.",
     "info2": ""
   },
   "3": { 
     "password": "c",
-    "info": "Joueur 3 : Léa : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 3 : Léa : Vous êtes le chasseur, one last shot for you !",
     "info2": ""
   },
   "4": { 
     "password": "d",
-    "info": "Joueur 4 : Pierre : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 4 : Pierre : Vous êtes l'infect père des loups. Vos dents empoisonnés permettront d'augmenter l'effectif des carnivores.",
     "info2": ""
   },
   "5": { 
@@ -26,22 +26,22 @@
   },
   "6": { 
     "password": "f",
-    "info": "Joueur 6 : Emma : Vous êtes loup-garou, soyez malin lors de vos repas !",
+    "info": "Joueur 6 : Emma : Vous êtes cupidon, les amoureux (Joueur 6 : Emma et Joueur 7 : gloglo) vous en voudront peut-être… Vous êtes amoureux du Joueur 7 : gloglo. Vos destins sont liés dans la victoire comme dans la mort.",
     "info2": ""
   },
   "7": { 
     "password": "g",
-    "info": "Joueur 7 : gloglo : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 7 : gloglo : Vous êtes loup-garou, soyez malin lors de vos repas ! Vous êtes amoureux de Joueur 6 : Emma. Vos destins sont liés jusque dans la mort.",
     "info2": ""
   },
   "8": { 
     "password": "h",
-    "info": "Joueur 8 : Alex : Vous êtes l'enfant sauvage. Surveillez bien Joueur 3 : Léa (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
+    "info": "Joueur 8 : Alex : Vous êtes loup-garou, soyez malin lors de vos repas !",
     "info2": ""
   },
   "9": { 
     "password": "i",
-    "info": "Joueur 9 : dreyd : Vous êtes villageois, ne vous faites pas bouffer !",
+    "info": "Joueur 9 : dreyd : Vous êtes l'enfant sauvage. Surveillez bien Joueur 5 : Marie (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
     "info2": ""
   }
 }
