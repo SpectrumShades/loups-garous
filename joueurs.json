@@ -2,7 +2,7 @@
   "1": { 
     "password": "a",
     "info": "Joueur 1 : Quentin : Vous êtes cupidon, les amoureux (Joueur 1 : Quentin et Joueur 4 : Pierre) vous en voudront peut-être… Vous êtes amoureux du Joueur 4 : Pierre. Vos destins sont liés dans la victoire comme dans la mort.",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": "\n\nJour n°1 : R.I.P"
   },
   "2": { 
     "password": "b",
@@ -17,7 +17,7 @@
   "4": { 
     "password": "d",
     "info": "Joueur 4 : Pierre : Vous êtes loup-garou, soyez malin lors de vos repas ! Vous êtes amoureux de Joueur 1 : Quentin. Vos destins sont liés jusque dans la mort.",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": "\n\nJour n°1 : R.I.P"
   },
   "5": { 
     "password": "e",
@@ -32,7 +32,7 @@
   "7": { 
     "password": "g",
     "info": "Joueur 7 : gloglo : Vous êtes l'enfant sauvage. Surveillez bien Joueur 1 : Quentin (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": "\n\nJour n°1 : Votre modèle est mort, vous devenez un Loup-garou jusqu'à la fin de la partie."
   },
   "8": { 
     "password": "h",
