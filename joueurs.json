@@ -2,7 +2,7 @@
   "1": { 
     "password": "a",
     "info": "Joueur 1 : Quentin : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Vous avez été infecté par l'infect père des loups. Vous êtes devenu un loup-garou et vous vous réveillerez avec la meute lors de la prochaine nuit. Par ailleur, vous conserver vos pouvoirs si vous en avez eu en tant que membre du village."
+    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
   },
   "2": { 
     "password": "b",
@@ -22,7 +22,7 @@
   "5": { 
     "password": "e",
     "info": "Joueur 5 : Marie : Vous êtes villageois, ne vous faites pas bouffer !",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": "\n\nJour n°1 : R.I.P"
   },
   "6": { 
     "password": "f",
@@ -42,6 +42,6 @@
   "9": { 
     "password": "i",
     "info": "Joueur 9 : dreyd : Vous êtes l'enfant sauvage. Surveillez bien Joueur 5 : Marie (votre modèle), s'il est éliminé, vous mangerez la nuit et vous cacherez le jour.",
-    "info2": "\n\nJour n°1 : Pas d'information supplémentaire pour vous."
+    "info2": "\n\nJour n°1 : Votre modèle est mort, vous devenez un Loup-garou jusqu'à la fin de la partie."
   }
 }
